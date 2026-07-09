@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up Page</title>
+  <link rel="stylesheet" href="js.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h2>Sign Up</h2>
+
+    <input type="text" id="firstName" placeholder="First Name">
+    <input type="text" id="lastName" placeholder="Last Name">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <input type="password" id="confirmPassword" placeholder="Confirm Password">
+
+    <button onclick="signup()">Sign Up</button>
+  </div>
+
+  <script>
+    function signup() {
+      let firstName = document.getElementById("firstName").value;
+      let lastName = document.getElementById("lastName").value;
+      let email = document.getElementById("email").value;
+      let password = document.getElementById("password").value;
+      let confirmPassword = document.getElementById("confirmPassword").value;
+    
+      console.log("First Name:", firstName);
+      console.log("Last Name:", lastName);
+      console.log("Email:", email);
+      console.log("Password:", password);
+
+      if (firstName === "" || lastName === "" || email === "" || password === "" || confirmPassword === "") {
+       console.log("Please fill in all fields.");
+      }else{
+       console.log("All fields are filled.");
+    }
+    
+  }
+  </script>
+
+</body>
+</html>

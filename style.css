@@ -1,0 +1,61 @@
+.logo{
+    width: 100px;
+    height: 100px;
+    padding-left: 895px;
+    padding-top: 200px;
+}
+.body{
+    background-color: #70a1ef;
+}
+.signup-title{
+   padding-left: 350px;
+    color:  #2f15c3;
+    text-size: 30px;
+}
+.signup-div{
+    width: 800px;
+    margin: 0 auto;
+    border: 5px solid #2f15c3;
+    border-radius: 20px;
+    background-color: #3062b3;
+   
+}
+.details{
+    color: #70a1ef;
+    padding-left: 290px;
+
+}
+.signup-button{
+    padding-left: 360px;
+    padding-top: 10px;
+    border-radius: 0px;
+    
+    
+}
+.login-option{
+    color: #70a1ef;
+    text-decoration: none;
+    padding-left: 285px;
+}
+.social-signup1{
+    padding-left: 300px;
+    color: #70a1ef;
+}
+.social-signup2{
+     padding-left: 300px;
+     padding-bottom: 20px;
+    color: #70a1ef;
+}
+.form-control{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #70a1ef;
+}
+.social-button{
+    width: 200px;
+    height: 30px;
+    border-color: #2f15c3;
+    background-color: #2f15c3;
+    color: #70a1ef;
+}
